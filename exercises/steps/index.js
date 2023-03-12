@@ -17,6 +17,9 @@
 //       '### '
 //       '####'
 
+"use strict";
+x = 7;
+
 function steps(n) {
   for (let i = 1; i <= n; i++) {
     let steps = "";
@@ -30,5 +33,6 @@ function steps(n) {
     console.log(steps);
   }
 }
+steps(5);
 
 module.exports = steps;
